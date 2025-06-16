@@ -11,6 +11,7 @@ O backend implementa autenticação segura e proteção das rotas, possibilitand
 ## Funcionalidades
 
 - Tela de login com autenticação via JWT.
+- Implementação de **Autenticação Multifatorial (MFA)** para maior segurança.
 - Armazenamento do token no frontend para acesso seguro ao dashboard.
 - Dashboard inicial com informações sobre o projeto e espaço para futuras visualizações.
 - Backend com rotas protegidas e geração de token JWT.
