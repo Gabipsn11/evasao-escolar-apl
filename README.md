@@ -43,3 +43,37 @@ backend/
 └── server.js
 └── .env
 ```
+
+---
+
+## Como executar o projeto localmente
+
+### Pré-requisitos
+
+- Node.js instalado (versão 14+)
+- npm (gerenciador de pacotes do Node.js)
+
+### Passos
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Gabipsn11/evasao-escolar-apl.git
+```
+
+2. Entre na pasta do backend e instale as dependências:
+```bash
+cd backend
+npm install
+```
+3. Inicie o servidor backend:
+```bash
+node server.js
+```
+4. Abra a pasta frontend e abra o arquivo login.html no navegador (ou use um servidor estático).
+5. Utilize um usuário cadastrado para fazer login (ou configure o backend para criar usuários).
+
+## Autenticação
+- A aplicação utiliza JWT para autenticar usuários.
+- Após o login, o token é salvo no localStorage.
+- As rotas protegidas verificam o token para garantir acesso autorizado.
